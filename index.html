@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Google Fonts   -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Boot strap Css  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Core Css  -->
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- Font Awesome Icons  -->
+    <script
+      src="https://kit.fontawesome.com/24f6148add.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Box Icons  -->
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Re-Express</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <!-- <nav
+          class="navbar navbar-expand-lg bg"
+          aria-label="Fifth navbar example"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="#">Bummex Wears</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarsExample05"
+              aria-controls="navbarsExample05"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"
+                ><i class="fa-solid fa-bars"></i>
+              </span>
+            </button>
+
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarsExample05"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Men</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Women</a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarsExample05"
+            >
+              <ul class="navbar-nav right-nav-menu">
+                <li class="nav-item cart-open">
+                  <a class="nav-link" href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-cart"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-telephone"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav> -->
+        <nav class="navbar navbar-expand-lg bg fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">Bummex Wears</a>
+            <li class="nav-item cart-op mob-cart justify-content-end">
+              <a class="nav-link" href="#cart">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-cart"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+              aria-controls="navbarCollapse"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"
+                ><i class="fa-solid fa-bars"></i>
+              </span>
+            </button>
+
+            <div
+              class="collapse navbar-collapse justify-content-center"
+              id="navbarCollapse"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Men</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Women</a>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarCollapse"
+            >
+              <ul class="navbar-nav right-nav-menu">
+                <li class="nav-item cart-open">
+                  <a class="nav-link" href="#cart">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-cart"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-telephone"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- cart  -->
+        <div class="cart" id="cart">
+          <h2 class="cart-title">Your cart</h2>
+          <!-- Content  -->
+          <div class="cart-content"></div>
+          <!-- Total  -->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">₦0</div>
+          </div>
+          <!-- Buy Button  -->
+          <button type="button" class="btn-buy">Buy Now</button>
+          <!-- Close Cart  -->
+          <i class="bx bx-x cl-cart"></i>
+        </div>
+      </header>
+
+      <!-- Title page  -->
+      <section id="title">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 title">
+              <h1>Home of Hand-made Footwears</h1>
+              <p>Durable and Exclusive Footwears</p>
+              <button class="btn btn-dark btn-lg">PLACE ORDER</button>
+            </div>
+            <div class="col-lg-6 align-content-center preview-image">
+              <img src="img/bg.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4 feature-card">
+              <i class="fa-solid fa-link"></i>
+              <h3>Durable</h3>
+              <p>
+                Quality Footwears that would last longer than your imaginations.
+              </p>
+            </div>
+            <div class="col-lg-4 feature-card">
+              <i class="fa-solid fa-heart"></i>
+              <h3>Trendy and Classy</h3>
+              <p>We have the best classic Hand-made Footwears</p>
+            </div>
+            <div class="col-lg-4 feature-card">
+              <i class="fa-solid fa-hand-holding-dollar"></i>
+              <h3>Pocket Friendly Prices</h3>
+              <p>Our Footwears are cheap and affordable</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Shopping section  -->
+      <section id="shop">
+        <!-- Section title  -->
+        <div class="container">
+          <div class="shop-section-title">
+            <h2 class="">Crafted Handmade Spectacles</h2>
+            <p class="light-txt">
+              Handmade footwears made with luxurious and finest materials to
+              beautify your lifestyles in an ample way.
+            </p>
+          </div>
+          <!-- Product section  -->
+
+          <div class="shop-products">
+            <!-- box 1 -->
+            <div class="product-box">
+              <a href="img/image1.jpeg">
+                <img
+                  src="img/image1.jpeg"
+                  alt="Black Slide"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">BLACK HALF-SHOE SLIDE</h2>
+              <span class="product-price">₦15000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 2 -->
+            <div class="product-box">
+              <a href="img/image2.jpeg">
+                <img
+                  src="img/image2.jpeg"
+                  alt="Black Slide"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">BROWN COVER SLIDE WITH STRIPES</h2>
+              <span class="product-price">₦16000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 3 -->
+            <div class="product-box">
+              <a href="img/image3.jpeg">
+                <img
+                  src="img/image3.jpeg"
+                  alt="Black Slide"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">BLACK COVER SLIDE</h2>
+              <span class="product-price">₦15000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 4 -->
+            <div class="product-box">
+              <a href="img/image4.jpeg">
+                <img
+                  src="img/image4.jpeg"
+                  alt="Black Slide"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">HAND-MADE GUCCI LOAFERS</h2>
+              <span class="product-price">₦25000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 5 -->
+            <div class="product-box">
+              <a href="img/image5.jpeg">
+                <img
+                  src="img/image5.jpeg"
+                  alt="Black Slide"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">BROWN SLIDE WITH STRIPES MEN</h2>
+              <span class="product-price">₦15000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 6 -->
+            <div class="product-box">
+              <a href="img/image6.jpeg">
+                <img
+                  src="img/image6.jpeg"
+                  alt="Black Slide"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">BLACK BELKIN-STOCKS HALF-SHOE</h2>
+              <span class="product-price">₦17000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 7 -->
+            <div class="product-box">
+              <a href="img/image7.jpeg">
+                <img
+                  src="img/image7.jpeg"
+                  alt="Black Slide"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">LOUIS VUITTON' HALF-SHOE SLIDE</h2>
+              <span class="product-price">₦18000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 8 -->
+            <div class="product-box">
+              <a href="img/image8.jpeg">
+                <img
+                  src="img/image8.jpeg"
+                  alt="Black Slide"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">BLACK STRIPE X CROSS CUSTOM SLIDE</h2>
+              <span class="product-price">₦15000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 9 -->
+            <div class="product-box">
+              <a href="img/image9.jpeg">
+                <img
+                  src="img/image9.jpeg"
+                  alt="Black Slide"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">BROWN COVER SLIDE</h2>
+              <span class="product-price">₦15000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 10 -->
+            <div class="product-box">
+              <a href="img/image10.jpeg">
+                <img
+                  src="img/image10.jpeg"
+                  alt="Black Slide"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">BLUE FEMALE SANDAL</h2>
+              <span class="product-price">₦15000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 11 -->
+            <div class="product-box">
+              <a href="img/image11.jpeg">
+                <img
+                  src="img/image11.jpeg"
+                  alt="Black Slide"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">BROWN TOP SLIDE</h2>
+              <span class="product-price">₦15000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 12 -->
+            <div class="product-box">
+              <a href="img/image12.jpeg">
+                <img
+                  src="img/image12.jpeg"
+                  alt="Black Slide"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">CROWN SLIDE</h2>
+              <span class="product-price">₦15000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+            <!-- box 13 -->
+            <div class="product-box">
+              <a href="img/image13.jpeg">
+                <img
+                  src="img/image13.jpeg"
+                  alt="Black Slide"
+                  class="product-img"
+                />
+              </a>
+              <h2 class="product-title">WOODEN BROWN SHOE</h2>
+              <span class="product-price">₦15000 </span>
+              <i class="bx bxs-cart-add add-cart"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="collection" class="collection">
+        <div class="container-fluid">
+          <div class="sectionCollection">
+            <h2 class="section-title">Footwear Collections</h2>
+            <p class="section-sub-title">collections in stock</p>
+          </div>
+          <div class="category-grid">
+            <div class="cat-box">
+              <img
+                src="img/image13.jpeg"
+                alt="Black Slide"
+                class="product-img"
+              />
+              <h2 class="cat-title">MEN</h2>
+            </div>
+            <div class="cat-box">
+              <img
+                src="img/image10.jpeg"
+                alt="Black Slide"
+                class="product-img"
+              />
+
+              <h2 class="cat-title">WOMEN</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
